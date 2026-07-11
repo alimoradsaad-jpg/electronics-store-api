@@ -1,16 +1,20 @@
 # Electronics Store API
 
-A RESTful API for an Electronics Store built with Node.js, Express.js, MongoDB, and Mongoose.
+A RESTful API for an Electronics Store built using Node.js, Express.js, MongoDB, and Mongoose.
+
+---
 
 ## Features
 
-- Manage Categories
-- Manage Products
+- Category Management
+- Product Management
 - Shopping Cart
-- Create Orders
-- Update Order Status
-- REST API
+- Order Creation
+- Order Status Update
+- RESTful API
 - JSON Responses
+
+---
 
 ## Technologies Used
 
@@ -20,26 +24,73 @@ A RESTful API for an Electronics Store built with Node.js, Express.js, MongoDB, 
 - Mongoose
 - Postman
 
+---
+
+## Project Structure
+
+```
+src/
+│── config/
+│── controllers/
+│── models/
+│── routes/
+│── app.js
+
+server.js
+package.json
+README.md
+```
+
+---
+
 ## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/alimoradsaad-jpg/electronics-store-api.git
+```
+
+Go to the project folder
+
+```bash
+cd electronics-store-api
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-## Run Project
+---
+
+## Environment Variables
+
+Create a `.env` file in the project root.
+
+```
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/electronics_store
+```
+
+---
+
+## Run the Project
+
+Development mode
 
 ```bash
 npm run dev
 ```
 
-## Environment Variables
+Production mode
 
-Create a `.env` file:
+```bash
+npm start
+```
 
-```
-PORT=5000
-MONGO_URI=your_mongodb_connection
-```
+---
 
 ## API Endpoints
 
@@ -70,6 +121,18 @@ MONGO_URI=your_mongodb_connection
 - GET /api/orders/:id
 - PUT /api/orders/:id/status
 
+---
+
+## GitHub Repository
+
+Repository Link:
+
+https://github.com/alimoradsaad-jpg/electronics-store-api
+
+---
+
 ## Author
 
 Ali Morad Saad
+
+Level 4 Project
