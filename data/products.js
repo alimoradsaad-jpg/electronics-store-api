@@ -1,0 +1,42 @@
+module.exports = [
+  {
+    name: "MacBook Air M2",
+    description: "Apple laptop with M2 chip",
+    price: 1200,
+    stock: 15,
+    image: "macbook.jpg",
+    category: "Laptops",
+  },
+  {
+    name: "Lenovo ThinkPad",
+    description: "Business laptop",
+    price: 900,
+    stock: 20,
+    image: "thinkpad.jpg",
+    category: "Laptops",
+  },
+  {
+    name: "iPhone 15",
+    description: "Apple smartphone",
+    price: 1000,
+    stock: 30,
+    image: "iphone15.jpg",
+    category: "Smartphones",
+  },
+  {
+    name: "Samsung Galaxy S24",
+    description: "Samsung flagship phone",
+    price: 950,
+    stock: 25,
+    image: "galaxy.jpg",
+    category: "Smartphones",
+  },
+  {
+    name: "Logitech Mouse",
+    description: "Wireless mouse",
+    price: 30,
+    stock: 100,
+    image: "mouse.jpg",
+    category: "Accessories",
+  },
+];
